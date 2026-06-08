@@ -1,0 +1,142 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    background:#f6f4ff;
+    padding-bottom:90px;
+}
+
+.container{
+    max-width:500px;
+    margin:auto;
+    padding:20px;
+}
+
+.header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:25px;
+}
+
+.header h2{
+    color:#222;
+}
+
+.header p{
+    color:#777;
+    font-size:14px;
+}
+
+.notif{
+    font-size:24px;
+}
+
+.menu-grid{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:12px;
+    margin-bottom:25px;
+}
+
+.menu-card{
+    background:white;
+    text-decoration:none;
+    border-radius:18px;
+    padding:15px;
+    text-align:center;
+    color:#333;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.menu-card:hover{
+    transform:translateY(-5px);
+}
+
+.menu-card span{
+    display:block;
+    margin-top:8px;
+    font-size:13px;
+}
+
+.tambah{
+    background:#f1e8ff;
+}
+
+.semua{
+    background:#e8fff0;
+}
+
+.profil{
+    background:#e8f0ff;
+}
+
+.logout{
+    background:#ffe8e8;
+}
+
+.note-card{
+    background:white;
+    padding:18px;
+    border-radius:20px;
+    margin-bottom:15px;
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+}
+
+.note-card h4{
+    margin-bottom:10px;
+}
+
+.note-card p{
+    color:#666;
+    line-height:1.5;
+}
+
+.note-footer{
+    display:flex;
+    justify-content:space-between;
+    margin-top:15px;
+    color:#777;
+    font-size:13px;
+}
+
+.bottom-nav{
+    position:fixed;
+    bottom:0;
+    left:0;
+    width:100%;
+    background:white;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    padding:15px;
+    box-shadow:0 -5px 15px rgba(0,0,0,.08);
+}
+
+.bottom-nav a{
+    text-decoration:none;
+    color:#444;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:5px;
+}
+
+.add-btn{
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    background:#6c4df6;
+    color:white !important;
+    display:flex !important;
+    justify-content:center;
+    align-items:center;
+    font-size:30px;
+    margin-top:-35px;
+    box-shadow:0 10px 20px rgba(108,77,246,.4);
+}
